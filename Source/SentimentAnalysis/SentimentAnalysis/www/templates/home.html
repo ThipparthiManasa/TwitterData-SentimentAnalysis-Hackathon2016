@@ -1,0 +1,14 @@
+<ion-view title="Home">
+    <ion-content style="background: url(http://www.synthesio.com/wp-content/uploads/2016/03/socialmedia.jpg) no-repeat center;background-size:cover;margin-top:-37px">
+        <div class="row row-center">
+            
+            <div id="bubble1"><span class="text" ng-click="getTweetsData('trump')">Elections</span></div>
+            <div id="bubble2"><span class="text" ng-click="getTweetsData('wayne bridge')">Wayne Bridge</span></div>
+            <div id="bubble3"><span class="text" ng-click="getTweetsData('love')">Love</span></div>
+            <div id="bubble4"><span class="text" ng-click="getTweetsData('game')">Game</span></div>
+            <div id="bubble5"><span class="text" ng-click="getTweetsData('black')">Black Friday</span></div>
+            <input type="text" id="text">
+            <button class="button button-positive button-block" id="getData" ng-click="getTweetsData('choice')">Button</button>
+        </div>
+    </ion-content>
+</ion-view>
